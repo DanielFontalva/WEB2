@@ -3,7 +3,7 @@
 
 html {
     font-family: 'SuffolkPunch', sans-serif;
-    src: url(SuffolkPunch\ Arctic\ Monkeys\ The\ Car.ttf);
+    src: url(tipografiaSuffolck.ttf);
 box-sizing: border-box;
 }
 
@@ -181,4 +181,24 @@ align-content: center;
 }
 .albumImage img {
     width: 100%;
+}
+
+.newStyleSection {
+    background-image: url(images/thenewstyle.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.textBox {
+    border: 1px solid white;
+    width: 40%;
+}
+.emptySpace3{
+    width: 50%;
+    flex-grow: 1;
+    border: 1px solid white;
 }
